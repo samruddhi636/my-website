@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Calculator</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+
+<div class="calculator">
+    <h1>🌸 Pink Calculator 🌸</h1>
+
+    <form action="calculator.php" method="POST">
+
+        <input type="number" name="num1" placeholder="Enter First Number" required>
+
+        <input type="number" name="num2" placeholder="Enter Second Number" required>
+
+        <select name="operator">
+            <option value="+">Addition (+)</option>
+            <option value="-">Subtraction (-)</option>
+            <option value="*">Multiplication (×)</option>
+            <option value="/">Division (÷)</option>
+            <option value="%">Modulus (%)</option>
+        </select>
+
+        <button type="submit">Calculate</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
